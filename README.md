@@ -21,7 +21,23 @@ sucesss response
 ``` javascript
 {
   "status_message": "Okay",
-  "data": "{dict}"
+  "data": [
+            {
+            "name": "Edan Daniele",
+            "100m": 12.61,
+            "long_jump": 5,
+            "shot_put": 9.22,
+            "high_jump": 1.5,
+            "400m": 60.39,
+            "110m_hurdles": 16.43,
+            "discus_throw": 21.6,
+            "pole_vault": 2.6,
+            "javelin_throw": 35.81,
+            "1500m": "5.25.72",
+            "score": 3873,
+            "placement": 1
+            },
+        ]
 }
 ```
 

@@ -19,7 +19,7 @@ class Decathon(Resource):
             try:
                 cls = ComputeDecathon(data['url']).get_score_and_rank()
                 return {'status_message': "Okay",
-                        'data': cls.to_json()}, 200
+                        'data': cls.to_dict(orient='records')}, 200
             except Exception as ex:
                 return {'status_message': ex.args,
                     'data': None}, 400
